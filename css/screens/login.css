@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .welcome-header__title {
@@ -17,40 +17,43 @@
   opacity: 0.7;
 }
 
-#login-form {
+.login-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
 
-#login-form input {
-  border: none;
+.login-form__input {
   padding: 15px 0px;
+  border: none;
   font-size: 18px;
-  margin-bottom: 25px;
-}
-
-#login-form input:not([type="submit"]) {
+  margin-bottom: 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
 }
 
-#login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-#login-form input:focus {
+.login-form__input:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.4);
   border-color: var(--yellow);
 }
 
-#login-form input[type="submit"] {
-  background-color: var(--yellow);
-  cursor: pointer;
-  padding: 20px 0px;
-  border-radius: 5px;
+.login-form__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
 }
 
-#login-form a {
+.login-form__btn {
+  background-color: var(--yellow);
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.login-form__a {
   text-align: center;
   text-decoration: none;
   color: inherit;
