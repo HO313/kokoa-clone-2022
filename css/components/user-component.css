@@ -1,9 +1,7 @@
 .user-component {
   display: flex;
-}
-
-.user-component {
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .user-component,
@@ -53,6 +51,7 @@
 }
 
 .user-component__time {
+  margin-top: 10px;
   margin-bottom: 10px;
   display: block;
 }
