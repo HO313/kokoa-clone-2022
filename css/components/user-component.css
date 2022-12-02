@@ -1,7 +1,6 @@
 .user-component {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
 }
 
 .user-component,
@@ -9,6 +8,10 @@
   display: flex;
   align-items: center;
 }
+
+/* .user-component__column {
+  margin-bottom: 10px;
+} */
 
 .user-component__avatar {
   width: 70px;
@@ -22,9 +25,9 @@
   font-size: 22px;
 }
 
-.user-compnent__subtitle {
+.user-component__subtitle {
   margin-top: 8px;
-  font-size: 17px;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -54,4 +57,24 @@
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__text {
+  position: relative;
+}
+
+.user-component__text span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  right: -21px;
+  bottom: 0px;
+  border: 1.5px solid red;
+  border-radius: 100%;
+  padding: 3px;
+  color: red;
+  font-size: 12px;
 }
