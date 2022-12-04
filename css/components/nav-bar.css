@@ -67,5 +67,5 @@
 }
 
 .nav__btn {
-  animation: appearBtnAnimation;
+  animation: appearBtnAnimation 3s;
 }

@@ -9,13 +9,17 @@
   bottom: 17px;
 }
 
+.icon_row__icon-box {
+  position: relative;
+}
+
 .more__dot-red {
   background-color: tomato;
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  display: flex;
   position: absolute;
-  right: 10px;
+  top: -20px;
+  right: -25px;
   bottom: 80px;
 }
